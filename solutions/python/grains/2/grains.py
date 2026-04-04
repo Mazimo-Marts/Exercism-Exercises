@@ -1,0 +1,12 @@
+def square(number):
+    if 1 <= number <= 64:
+        result = 2**(number - 1)
+        return result
+    raise ValueError("square must be between 1 and 64")
+
+def total():
+    sum = 0
+    for square in range(64):
+        sum += 2**square
+    return sum
+    
