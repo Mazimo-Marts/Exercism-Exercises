@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Arquivos de teste
+java/test.java
+java/test.class
+javascript/test.js
+python/test.py
