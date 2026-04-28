@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SqueakyCleanTest" tests="12" skipped="0" failures="12" errors="0" timestamp="2026-04-20T15:19:23.047Z" hostname="HPC" time="0.056">
+  <properties/>
+  <testcase name="The clean method converts leetspeak to normal text with spaces and special characters" classname="SqueakyCleanTest" time="0.021">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.leetspeakToNormalTextWithSpacesAndSpecialCharacters(SqueakyCleanTest.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method converts kebab to camel case after removing a dash" classname="SqueakyCleanTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.kebabToCamelCase(SqueakyCleanTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method replaces whitespaces with underscores in the middle of the string" classname="SqueakyCleanTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.spaces(SqueakyCleanTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method returns the same string when invoked on a string of three letters" classname="SqueakyCleanTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.string(SqueakyCleanTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method converts leetspeak to normal text after replacing numbers with chars" classname="SqueakyCleanTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.leetspeakToNormalText(SqueakyCleanTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method returns a string in camel case after removing a dash and replaces a whitespace" classname="SqueakyCleanTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.kebabToCamelCaseAndNumber(SqueakyCleanTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method returns a string in camel case and replaces leading and trailing whitespaces" classname="SqueakyCleanTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.kebabToCamelCaseAndSpaces(SqueakyCleanTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method returns empty string when invoked on empty string" classname="SqueakyCleanTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.empty(SqueakyCleanTest.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method removes all characters that are not letters" classname="SqueakyCleanTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.specialCharacters(SqueakyCleanTest.java:83)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method replaces leading and trailing whitespaces with underscores" classname="SqueakyCleanTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.leadingAndTrailingSpaces(SqueakyCleanTest.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method removes all characters that are not letters and replaces spaces" classname="SqueakyCleanTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.specialCharactersAndSpaces(SqueakyCleanTest.java:90)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The clean method returns the same string when invoked on a single letter string" classname="SqueakyCleanTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
+	at SqueakyClean.clean(SqueakyClean.java:3)
+	at SqueakyCleanTest.singleLetter(SqueakyCleanTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
