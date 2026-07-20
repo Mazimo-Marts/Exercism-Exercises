@@ -38,7 +38,9 @@ Cada vez que completo um exercício, ele é automaticamente versionado e enviado
 
 - 🐍 Python  
 - 🟨 JavaScript  
-- ☕ Java  
+- ☕ Java
+- 🐹 Go
+- 🌙 Lua
 
 ---
 
